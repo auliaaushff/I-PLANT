@@ -1,0 +1,39 @@
+*,
+html,
+body{
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #35473f;
+    padding: 10px;
+}
+.img {
+    width: 100px;
+    height: 100px;
+}
+.container{
+    text-align: center;
+}
+.T1{
+    border-radius: 25px;
+    padding: 20px;
+    margin: 40px 30px;
+    background-color: #628474;
+    color: whitesmoke;
+}
+.T1:hover{
+    background-color: #35473f;
+    cursor: pointer;
+}
+footer{
+    color: white;
+    position: fixed;
+    background-color: #35473f;
+    padding: 10px;
+    width: 100%;
+    bottom: 0;
+}
